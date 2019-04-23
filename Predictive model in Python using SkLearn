@@ -26,7 +26,7 @@ plt.suptitle('Scatter-matrix for each input variable')
 plt.savefig('data_scatter_matrix')
 # plt.show()
 
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split 
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=0, train_size=.75)
 
